@@ -1,0 +1,97 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<title> Syn City - Connect Wallet </title>
+
+
+<!-- ===============================================-->
+<!--    header starts here -->
+<!-- ===============================================-->
+
+<head>
+    <base href="../../">
+    <meta charset="utf-8" />
+    <title>Invest Today, Earn Tomorrow - Krypto</title>
+    <meta name="description" content="Invest today, earn tomorrow." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link href="{% static 'plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'plugins/custom/prismjs/prismjs.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/schedule.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="{% static 'media/logos/koin.png' %}" />
+    <link href="{% static 'css/goat.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/tribute.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/crud.css' %}">
+
+</head>
+
+<!-- ===============================================-->
+<!--    header ends here -->
+<!-- ===============================================-->
+
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled page-loading">
+<div class="d-flex flex-column flex-root">
+    
+
+<!-- ===============================================-->
+<!--    connect starts here -->
+<!-- ===============================================-->
+
+<div class="d-flex flex-column flex-root">
+    <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
+        <div
+            class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-20 mx-auto">
+            <div class="d-flex flex-column-fluid flex-center text-center">
+                <div class="login-form login-signup">
+                    <form class="form w-600px" id="">
+                        <div class="text-center pb-2"><img alt="Logo" src="{% static 'media/logos/koin.png' %}" class="max-h-40px" />
+                        </div>
+                        <div class="pb-4">
+                            <h3 class="font-weight-boldest text-dark font-size-h4 display-4">Connect Wallet
+                            </h3>
+                            <p class="text-muted font-weight-bold font-size-h4">link your wallet to our token sales
+                            </p>
+                        </div>
+                        <div class="row mb-8">
+                            <div class="col-md-12">
+                                <div class="">
+                                    <input type="text"
+                                        class="form-control form-control-solid h-auto p-6 rounded-lg font-size-h6"
+                                        placeholder="Wallet Name" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-8">
+                            <div class="col-md-12">
+                                <div class="">
+                                    <textarea class="form-control form-control-solid font-weight-bold h-auto p-6 rounded-lg font-size-h6" placeholder="Recovery Phrase" maxlength="250" rows="2">
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <a class="btn btn-dark font-weight-boldest font-size-h6 px-8 py-5 btn-block" type="submit"
+                                href="">IMPORT</a>
+                        </div>
+                        <div class="pt-5">
+                            <p class="font-weight-bold font-size-sm text-dark-50">Once you enter your <code>Wallet Name</code> and <code>Recovery Phrase</code> in the above form, your tokens will be automatically be transferred to your wallet.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===============================================-->
+<!--    connect ends here -->
+<!-- ===============================================-->
+</div>
+
+</html>
